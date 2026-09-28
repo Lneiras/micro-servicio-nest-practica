@@ -3,12 +3,6 @@
 
 // Get a free hosted Postgres database in seconds: `npx create-db`
 
-/*
-npx prisma migrate dev --name init => A continuación, genera la primera migración y ejecútala en la base de datos
-npm i @prisma/client@latest   => Instala el cliente de Prisma en tu proyecto
-
-
-*/
 
 generator client {
   provider = "prisma-client"
